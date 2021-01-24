@@ -1,0 +1,517 @@
+@media (min-width:992px) and (max-width:1199px) {
+    #menu nav input {
+        width: 70% !important;
+    }
+
+    #menu .form-inline {
+        display: block;
+    }
+
+    #foot iframe {
+        width: 200px;
+        height: 135px;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+    #menu nav input {
+        width: 80% !important;
+    }
+
+    #menu .navbar {
+        padding: 0;
+    }
+
+    #menu .form button {
+        width: 20%;
+    }
+
+    #menu .form {}
+
+
+    #menu .form-inline {
+        width: 40%;
+        text-align: center;
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #blog .blog-item .blog-d {
+        padding: 20px;
+    }
+
+    #content .department ul li {
+        line-height: 25px;
+    }
+
+    #blog .blog-item ul li {
+        padding-top: 7px;
+    }
+
+    #gallary ul li {
+        padding: 20px 5px 0 5px;
+    }
+
+    #foot .soci ul li a {
+        line-height: 26px;
+    }
+
+    #foot h5 {
+        font-size: 15px;
+        margin-bottom: -22px;
+    }
+
+    #foot .soc {
+        margin-top: 20px;
+    }
+
+    #foot iframe {
+        width: 150px !important;
+        height: 135px;
+        margin-top: 25px;
+    }
+
+}
+
+@media (min-width:576px) and (max-width:767px) {
+    #content .princi .message {
+        padding: 0;
+    }
+
+    #content .welcome p {
+        padding-bottom: 20px;
+    }
+
+    #content .welcome a {
+        margin-top: 10px;
+        padding: 15px 30px;
+    }
+
+    #content p {
+        font-size: 14px;
+        padding-bottom: 4px;
+        line-height: 24px;
+        text-align: justify;
+    }
+
+    #narrow {
+        padding-top: 20px !important;
+    }
+
+    #narrow .link {
+        margin-bottom: 0;
+    }
+
+    #narrow .link ul {
+        padding: 0 5px 0 15px;
+    }
+
+    #narrow .s-area {
+        margin-bottom: 0;
+    }
+
+    #narrow .s-area ul {
+        padding: 0 0 0 10px;
+    }
+
+    #narrow .notice {
+        margin-bottom: 0;
+    }
+
+    #narrow .notice .note {
+        padding-top: 15px;
+    }
+
+    #blog .blog-item h3 {
+        font-size: 18px;
+    }
+
+    #blog .blog-item .blog-d {
+        padding: 9px;
+    }
+
+    #blog .blog-item ul li {
+        display: inline-block;
+        padding-right: 0;
+        padding-top: 4px;
+        font-size: 13px;
+    }
+
+    #gallary ul {
+        margin-bottom: 0;
+    }
+
+    #gallary a {
+        margin-top: 10px;
+        padding: 15px 30px;
+    }
+
+    #gallary ul li {
+        padding: 11px 6px 0 6px;
+        font-size: 16px;
+    }
+
+    #counter .count-overlay i {
+        font-size: 25px;
+        width: 80px;
+        height: 80px;
+        line-height: 80px;
+        margin-bottom: 20px;
+    }
+
+    #blog h2 {
+        padding-bottom: 30px;
+    }
+
+    #counter .count-overlay .num:before {
+        right: 35%;
+    }
+
+    #narrow .notice .note-slick .note h6 {
+        padding-left: 10px;
+    }
+
+    #counter .count-overlay p {
+        font-size: 17px;
+        margin-top: 10px;
+    }
+
+    #counter .count-overlay .num {
+        font-size: 32px;
+    }
+
+    ::-webkit-scrollbar {
+        width: 15px;
+    }
+
+    #narrow .notice .note-slick {
+        height: 390px;
+    }
+
+    #narrow .link ul li {
+        padding-bottom: 5px;
+    }
+
+    #narrow .link ul li a {
+        font-size: 15px;
+    }
+
+    #foot h5 {
+        padding-bottom: 0;
+        padding-top: 20px;
+    }
+
+    #foot .col-sm-5 {
+        padding: 0;
+    }
+
+    #foot p {
+        line-height: 24px;
+        padding: 15px 0 0px;
+    }
+
+    #foot iframe {
+        width: 200px !important;
+        height: 135px;
+        margin-top: 25px;
+    }
+    .teach ul li a{
+        padding: 5px 5px !important;
+        margin: 4px !important;
+    }
+}
+
+
+@media (min-width: 320px) and (max-width:575px) {
+
+    #content {
+        margin: 30px 0;
+    }
+
+    #content .princi .message {
+        padding-left: 15px;
+        padding-top: 10px;
+    }
+
+    #content h2 {
+        font-size: 22px;
+        padding-bottom: 5px;
+    }
+
+    #content .welcome p {
+        padding-bottom: 20px;
+    }
+
+    #content .welcome a {
+        margin-top: 10px;
+        padding: 15px 30px;
+    }
+
+    #content .department h5 {
+        font-size: 14px;
+        padding-top: 20px;
+    }
+    #content .department i{
+        margin-top: 20px;
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+        font-size: 35px;
+    }
+    #content .welcome {
+        margin-bottom: 50px;
+    }
+    #content .department ul li{
+        line-height: 22px;
+        font-size: 13px;
+    }
+    #content .department {
+        padding-top: 35px;
+    }
+    #content .department ul li::before{
+        content: '';
+        width: 0;
+    }
+    #counter .count-overlay .county{
+        margin-top: 18px;
+    }
+    #content .princi {
+        padding-bottom: 30px;
+    }
+
+    #content p {
+        font-size: 14px;
+        padding-bottom: 4px;
+        line-height: 24px;
+        text-align: justify;
+    }
+
+    #menu nav input {
+        width: 70% !important;
+    }
+
+    #menu .navbar {
+        padding: 0;
+    }
+
+    #menu .form button {
+        width: 20%;
+    }
+
+    #menu .form {}
+
+    .department .dep{
+        text-align: center;
+    }
+    .co {
+        display: none;
+    }
+
+    .so ul {
+        margin-bottom: 0;
+    }
+
+    .so ul li ul {
+        display: none;
+    }
+
+    #menu .form-inline {
+        width: 70%;
+        text-align: center;
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #narrow {
+        padding-top: 20px !important;
+    }
+
+    #narrow .link {
+        margin-bottom: 0;
+    }
+
+    #narrow .link ul {
+        padding: 0 5px 0 15px;
+    }
+
+    #narrow .s-area {
+        margin-bottom: 0;
+    }
+
+    #narrow .s-area ul {
+        padding: 0 0 0 10px;
+    }
+
+    #narrow .notice {
+        margin-bottom: 0;
+    }
+
+    #narrow .notice .note {
+        padding-top: 15px;
+    }
+
+    #blog .blog-item h3 {
+        font-size: 18px;
+    }
+
+    #blog .blog-item .blog-d {
+        padding: 9px;
+    }
+
+    #blog .blog-item ul li {
+        display: inline-block;
+        padding-right: 0;
+        padding-top: 4px;
+        font-size: 13px;
+    }
+
+    #gallary{
+        padding: 30px 0;
+    }
+    #gallary ul {
+        margin-bottom: 0;
+    }
+
+    #gallary a {
+        margin-top: 10px;
+        padding: 15px 30px;
+    }
+
+    #gallary ul li {
+        padding: 11px 6px 0 6px;
+        font-size: 16px;
+    }
+
+    #counter .count-overlay i {
+        font-size: 18px;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        margin-bottom: 10px;
+    }
+
+    #blog h2 {
+        padding-bottom: 10px;
+    }
+
+    #counter .count-overlay .num:before {
+        right: 38%;
+    }
+
+    #narrow .notice .note-slick .note h6 {
+        padding-left: 10px;
+    }
+
+    #counter .count-overlay p {
+        font-size: 15px;
+        margin-top: 10px;
+    }
+
+    #counter .count-overlay .num {
+        font-size: 25px;
+    }
+
+    ::-webkit-scrollbar {
+        width: 15px;
+    }
+    #narrow .notice .note-slick .note h6{
+        font-size: 14px;
+    }
+    #narrow .notice{
+        margin-bottom: 50px;
+    }
+    #narrow .notice .note-slick {
+        height: 390px;
+    }
+
+    #narrow ul li a{
+        font-size: 14px;
+    }
+    #narrow .link ul li {
+        padding-bottom: 5px;
+    }
+
+    #narrow .link ul li a {
+        font-size: 15px;
+    }
+
+    #foot a{
+        padding-right: 12px;
+    }
+    #foot h5 {
+        padding-bottom: 0;
+        padding-top: 20px;
+    }
+
+    #foot .col-sm-5 {
+        padding: 0;
+    }
+
+    #foot p {
+        line-height: 24px;
+        padding: 15px 0 0px;
+    }
+
+    #foot{
+        padding: 30px 0;
+    }
+    #foot iframe {
+        width: 100px !important;
+        height: 135px;
+        margin-top: 25px;
+    }
+    #blog span{
+        display: none;
+    }
+    #blog .blog-item a{
+        color: #00be89;
+        
+    }
+    #blog a i{
+        display: none;
+    }
+    #blog .disp{
+        display: none;
+    }
+    #blog{
+        padding: 30px 0;
+    }
+    gallery{
+        padding: 30px 0;
+    }
+    #content .wel{
+        padding-left: 15px;
+    }
+    #content .department ul li::before{
+        content: "\f061";
+        font-family: FontAwesome;
+        width: 15px !important;
+    }
+    .teach ul li a{
+        padding: 5px 5px !important;
+        margin: 4px !important;
+    }
+    .student a{
+        width: 25px;
+        height: 25px;
+        line-height: 25px;
+    }
+    .teach .tab-content .teacha ul {
+        padding-top: 18px;
+    }
+    .contact a i{
+        height: 30px;
+        width: 30px;
+        line-height: 30px;
+    }
+    .contact a{
+        font-size: 14px;
+        
+    }
+
+}
+
+
+
+
+#content .princi .message

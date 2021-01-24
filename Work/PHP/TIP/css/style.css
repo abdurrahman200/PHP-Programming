@@ -1,0 +1,18 @@
+body{
+	font-family: 'Rajdhani', sans-serif;
+	/* background: #0073a1; */
+	color: #888;
+
+
+}
+
+.navbar{
+	
+	text-transform: uppercase;
+	border-bottom: 2px solid #b70000!important;
+	font-size: 13px;
+}
+a {
+	text-decoration: none;
+	font-weight: bold;
+}

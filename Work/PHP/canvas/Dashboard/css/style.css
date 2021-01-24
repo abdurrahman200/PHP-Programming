@@ -1,0 +1,72 @@
+/*!
+ * Start Bootstrap - Simple Sidebar (https://startbootstrap.com/template-overviews/simple-sidebar)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-simple-sidebar/blob/master/LICENSE)
+ */
+body {
+  overflow-x: hidden;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+#sidebar-wrapper {
+  min-height: 100vh;
+  margin-left: -15rem;
+  -webkit-transition: margin .25s ease-out;
+  -moz-transition: margin .25s ease-out;
+  -o-transition: margin .25s ease-out;
+  transition: margin .25s ease-out;
+}
+
+#sidebar-wrapper .sidebar-heading {
+  padding: 0.875rem 1.25rem;
+  font-size: 1.2rem;
+}
+
+
+
+#sidebar-wrapper .list-group {
+  width: 15rem;
+}
+
+
+.list-group-item:hover{
+  
+  border-left:3px solid #007bff;
+  border-right:3px solid #007bff;
+}
+/*-------------------*/
+
+.dropdown-menu:hover{
+  background: #ccc;
+  color: #666;
+}
+
+
+/*------------------*/
+
+#page-content-wrapper {
+  min-width: 100vw;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+  margin-left: 0;
+}
+
+@media (min-width: 768px) {
+  #sidebar-wrapper {
+    margin-left: 0;
+  }
+
+  #page-content-wrapper {
+    min-width: 0;
+    width: 100%;
+  }
+
+  #wrapper.toggled #sidebar-wrapper {
+    margin-left: -15rem;
+  }
+}
+
+.border-left-primary {
+    border-left: .25rem solid #4e73df!important;
+}

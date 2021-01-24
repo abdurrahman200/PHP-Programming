@@ -1,0 +1,10 @@
+body{
+	font-family: 'Rajdhani', sans-serif;
+	background-image: url('../img/background.jpg')
+}
+.form-control{
+	border-radius: 0px;
+	color: #fff;
+}
+
+
